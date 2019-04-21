@@ -31,6 +31,7 @@ void Field::paint(){
     hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(hConsole, 6);
     for (int i = 2; i < 22; ++i) {
+        cout << "\t";
         for (int j = 0; j < 12; ++j) {
             if (matrix[i][j].state == 1 && matrix[i][j].color != NONE) {
                 switch (matrix[i][j].color) {

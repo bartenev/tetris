@@ -9,11 +9,13 @@ SOURCES += \
     cell.cpp \
     field.cpp \
     game.cpp \
-    ifigure.cpp
+    ifigure.cpp \
+    startwindow.cpp
 
 HEADERS += \
     figure.h \
     cell.h \
     field.h \
     game.h \
-    ifigure.h
+    ifigure.h \
+    startwindow.h
