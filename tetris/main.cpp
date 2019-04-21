@@ -3,11 +3,14 @@
 #include <field.h>
 #include <cell.h>
 #include <game.h>
+#include <startwindow.h>
+
 using namespace std;
 
 int main()
 {
-    Game game;
-    game.newGame();
+    StartWindow Startwindow;
+    Startwindow.drawMenu();
+    //Startwindow.startNewGame();
     return 0;
 }
